@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "Auto Shutdown Registry Entry",
+    "publisher": "SpringPeople",
+    "description": "Auto Shutdown Scheduler StartUp File",
+    "tags": [
+        "Windows",
+        "Xampp"
+    ],
+    "iconUri": "",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startInstall.ps1"
+    }
+}

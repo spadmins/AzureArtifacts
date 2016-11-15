@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "EnableDisk",
+    "publisher": "SpringPeople",
+    "description": "Sets up partition on raw disk and formats it",
+    "tags": [
+        "Windows",
+        "EnableDisk"
+    ],
+    "iconUri": "",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startSetup.ps1"
+    }
+}
